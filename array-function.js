@@ -17,8 +17,8 @@ async function Criptomonedas() {
         const listItem=document.createElement('li')
         listItem.innerHTML=`
         <strong>Nombre: </strong>${element.name}<br>
-        <strong>cotizacion por hora: </strong>${element.volume_1hrs_usd}<br>
-        <strong>cotizacion del dia: </strong>${element.volume_1day_usd}`;
+        <strong>cotizacion por hora: </strong>${element.volume_1hrs_usd} USD <br> 
+        <strong>cotizacion del dia: </strong>${element.volume_1day_usd} USD`;
         lista.appendChild(listItem);
     });
 }
